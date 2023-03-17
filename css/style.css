@@ -27,8 +27,19 @@ a{
 .conhecer-cards{
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
     margin: 50px;
     border: 1px solid green;
+}
+
+.conhecer-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-conhecer{
+    width: 200px;
+    height: 200px;
 }
 
 #conhecer h1{
