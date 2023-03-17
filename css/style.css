@@ -1,0 +1,43 @@
+.cabeca{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.itn-menu{
+    display: inline-block;
+    margin: 20px; 
+} 
+
+a{
+    text-decoration: none;
+}
+
+.pg-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px; 
+    justify-content: center;
+} 
+
+.text-intro{
+    margin-right: 20px; 
+    width: 45%;
+} 
+
+.img-intro{
+    margin-left: 20px; 
+    width: 45%;
+}
+
+.txt-1{
+    font-size: 30px;
+    line-height: 10px; 
+    text-align: center;
+    
+} 
+
+.banner{
+    width: 100%;
+}
