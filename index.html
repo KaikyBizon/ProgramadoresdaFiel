@@ -5,48 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-
-
+    <link rel="stylesheet" href="css/style.css">
     <title>Starefinha</title>
 </head>
 
 <body>
     <!--Início do cabeçalho-->
-    <header class="cabeca">
+    <header>
         <div>
             <h3 id="logo">Logo</h3>
         </div>
 
         <ul class="menu">
             <a href="#">
-                <li class="itn-menu">Sobre</li>
+                <li>Sobre</li>
             </a>
             <a href="#">
-                <li class="itn-menu">Suporte</li>
+                <li>Suporte</li>
             </a>
             <a href="#">
-                <li class="itn-menu">Avaliações</li>
+                <li>Avaliações</li>
             </a>
             <a href="#" id="login-btn">
-                <li class="itn-menu">Login</li>
+                <li>Login</li>
             </a>
             <a href="#" id="cadastro-btn">
-                <li class="itn-menu">Cadastre-se</li>
+                <li>Cadastre-se</li>
             </a>
         </ul>
     </header>
     <!--Fim do Cabeçalho-->
 
-    <main class="pg-1">
+    <main>
         <article class="text-intro">
-            <h1 class="txt-1"><span>Sua Vida Organizada</span></h1>
-            <h1 class="txt-1">Em Um Único</h1>
-            <h1 class="txt-1">APP!</h1>
+            <h1><span>Sua Vida Organizada</span></h1>
+            <h1>Em Um Único<br>APP!</h1>
         </article>
         <aside class="img-intro">
-            <img src="./images/wireframe.png" alt="teste" class="banner">
+            <img src="./images/wireframe.png" alt="teste">
         </aside>
     </main>
 
@@ -96,27 +92,38 @@
 
     <!--Início Aba: Avaliações-->
     <section id="avl">
-        <h1>AVALIAÇÕES</h1>
+        <div class="av">
+            <h1 class="titulo">AVALIAÇÕES</h1>
+            <div class="avl-geral">
 
-        <div class="avl-geral">
-            <div class="avaliações">
-                <img src="" alt="">
-                <h3>NOME</h3>
-                <input type="text" name="" id="">
+
+                <div class="avaliações">
+                    <div class="nome">
+                        <img src="imagens/imagem.png" class="usuário" alt="">
+                        <h3>NOME</h3>
+                    </div>
+                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                </div>
+
+                <div class="avaliações">
+                    <div class="nome">
+                        <img src="imagens/imagem.png" class="usuário" alt="">
+                        <h3>NOME</h3>
+                    </div>
+                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                </div>
+
+                <div class="avaliações">
+                    <div class="nome">
+                        <img src="imagens/imagem.png" class="usuário" alt="">
+                        <h3>NOME</h3>
+                    </div>
+                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                </div>
+
+
+
             </div>
-
-            <div class="avaliações">
-                <img src="" alt="">
-                <h3>NOME</h3>
-                <input type="text" name="" id="">
-            </div>
-
-            <div class="avaliações">
-                <img src="" alt="">
-                <h3>NOME</h3>
-                <input type="text" name="" id="">
-            </div>
-
             <a href="">
                 <p>VER MAIS...</p>
             </a>
@@ -127,18 +134,16 @@
     <!--Início Aba: cadastro-secundário-->
     <section class="cadrastro">
         <img src="" alt="">
+        <h1>Agora que você<br>já conheceu tudo<br> venha fazer parte<br> do nosso grupo</h1>
 
-        <div class="botão">
-            <h1>Agora que você<br>já conheceu tudo<br> venha fazer parte<br> do nosso grupo</h1>
-
-
+        <div>
             <input type="button" value="Cadastre-se agora">
         </div>
 
     </section>
     <!--Fim Aba: Cadastro-secundário-->
 
-    <!--Inicio Aba: suporte.-->
+    <!--Inicio Aba: suporte-->
 
     <section>
 
@@ -201,6 +206,7 @@
         </div>
     </footer>
     <!--Fim Aba: rodapé-->
+    <p>Kaiky</p>
 
 </body>
 
