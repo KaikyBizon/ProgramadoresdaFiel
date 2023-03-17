@@ -1,0 +1,60 @@
+.rodape{
+    left: 0;
+    bottom: 0;
+  
+    color: black;
+    text-align: center;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    display: flex; 
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    
+}
+    
+footer a img{
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+footer address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+/*
+.rodape{
+    display: flex; 
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+}
+*/
+.rodape-1{
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+   
+
+}
+
+.rodape-2{
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    
+
+}
+
+.rodape-3{
+    border: 1px solid #ccc;
+    padding: 30px 30px;
+}
+
+.rodape-5{
+    border: 1px solid #ccc;
+    padding: 30px 30px;
+
+}
