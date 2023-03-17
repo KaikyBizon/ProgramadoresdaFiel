@@ -1,0 +1,51 @@
+/*Começo avaliações*/
+#avl{
+   
+    display: flex;
+    justify-content: center;
+}
+
+/*Título H1*/
+.titulo{
+   text-align: center;
+
+}
+/*Título H1*/
+
+
+.avl-geral{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.avaliações{
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    margin: 1%;
+    
+    
+}
+.av{
+    border: 1px solid #ccc;
+    padding: 30px 30px;
+    border-radius: 16px;
+}
+
+.usuário{
+    width: 20px;
+    height: 20px;
+
+}
+.avaliações .nome{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+h3{
+    margin: 0;
+    margin-bottom: 16px;
+}
+/*Fim avaliações*/
