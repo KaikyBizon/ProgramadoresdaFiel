@@ -1,0 +1,55 @@
+/*Inicio CSS da abba suporte*/
+
+/*Inicio divs*/
+.reclamaçoes{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.img_suporte{
+ width: 400px;
+ height: 400px;
+ border: 2px;
+ margin-right: 200px;
+ margin-left: 200px;
+ 
+}
+.Suporte{
+    display: flex;
+    justify-content:flex-end;
+    
+ }
+/*fim divs*/
+
+/*inicio botões*/
+.btn-todos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 3px solid black;
+}
+.e-mail{
+    width: 350px ;
+    height:50px ;
+}
+.mensagem{
+    width:350px ;
+    height:200px ;
+}
+.botão{
+    width:150px ;
+    height:40px ;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+}
+/*fim botões*/
+
+/*inicio imagem*/
+#img-suporte{
+    height: 400px;
+    width: 400px;
+}
+/*fim imagem*/
