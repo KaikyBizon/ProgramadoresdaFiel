@@ -1,0 +1,18 @@
+.botão{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botão input{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+}
