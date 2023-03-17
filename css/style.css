@@ -1,18 +1,26 @@
-.botão{
+.conhecer-grid{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.botão input{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    width: 400px;
     
 }
 
-.cadastro{
+#conhecer{
+    border: 1px solid green;
+}
+
+.conhecer-cards{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    border: 1px solid green;
+}
+
+#conhecer h1{
+    display: flex;
+    justify-content: center;
+}
+
+.img-conhecer{
+    width: 200px;
+    height: 200px;
 }
