@@ -1,8 +1,19 @@
-.conhecer-grid{
-    display: flex;
+.cabeca{
+    display: flex; 
+    flex-direction: row; 
     justify-content: space-between;
-    
+    align-items: center;
+} 
+
+.itn-menu{
+    display: inline-block;
+    margin: 20px; 
+} 
+
+a{
+    text-decoration: none;
 }
+
 
 .conhecer-grid h2{
     display: flex;
@@ -25,9 +36,38 @@
     justify-content: center;
 }
 
-.img-conhecer{
-    width: 200px;
-    height: 200px;
+.pg-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.text-intro{
+    margin-right: 20px; 
+    width: 45%;
+    width: 45%; 
+} 
+
+.img-intro{
+    margin-left: 20px; 
+    width: 45%;
+}
+
+.txt-1{
+    font-size: 30px;
+    font-size: 50px;
+    line-height: 10px; 
+    
+} 
+
+/*Parte do Davi*/
+
+.banner{
+    width: 100%;
+    width: 100%; 
+
 }
 
 .botão{
@@ -48,4 +88,3 @@
     display: flex;
     align-items: center;
 }
-
