@@ -49,3 +49,105 @@ h3{
     margin-bottom: 16px;
 }
 /*Fim avaliações*/
+
+.cabeca{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.itn-menu{
+    display: inline-block;
+    margin: 20px; 
+} 
+
+a{
+    text-decoration: none;
+}
+
+
+.conhecer-grid h2{
+    display: flex;
+    justify-content: center;
+}
+
+#conhecer{
+    border: 1px solid green;
+}
+
+.conhecer-cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin: 50px;
+    border: 1px solid green;
+}
+
+.conhecer-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-conhecer{
+    width: 200px;
+    height: 200px;
+}
+
+#conhecer h1{
+    display: flex;
+    justify-content: center;
+}
+
+.pg-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.text-intro{
+    margin-right: 20px; 
+    width: 45%;
+    width: 45%; 
+} 
+
+.img-intro{
+    margin-left: 20px; 
+    width: 45%;
+}
+
+.txt-1{
+    font-size: 30px;
+    font-size: 50px;
+    line-height: 10px; 
+    
+} 
+
+/*Parte do Davi*/
+
+.banner{
+    width: 100%;
+    width: 100%; 
+
+}
+
+.botão{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botão input{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+}
