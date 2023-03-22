@@ -1,23 +1,30 @@
+/* Inicio do css footer*/
+
+/*Inicio do rodapé geral*/
 .rodape{
     left: 0;
     bottom: 0;
-  
-    color: black;
+    color: #faed27;
     text-align: center;
-    padding-left: 40px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid #ccc;
     padding: 5px 5px;
     display: flex; 
     justify-content: space-around;
-    border: 1px solid #ccc;
-    
+    border: 0px solid #696969;
 }
-    
+/*Fim do rodapé geral*/
+
+
+/*Inicio imagens*/
 footer a img{
     width: 40px;
     height: 40px;
-    padding-left: 40px;
+    padding: 0px 20px;
 }
+/*Fim imagens*/
 
 footer address{
     display: flex;
@@ -26,35 +33,39 @@ footer address{
     align-items: center;
     padding-top: 20px;
 }
-/*
-.rodape{
-    display: flex; 
-    justify-content: space-around;
-    border: 1px solid #ccc;
-    margin-left: 100px;
-}
-*/
+
+
 .rodape-1{
-    border: 1px solid #ccc;
+    border: 0px solid #696969;
     padding: 10px 10px;
    
 
 }
 
 .rodape-2{
-    border: 1px solid #ccc;
+    border: 0px solid #696969;
     padding: 5px 5px;
     
 
 }
 
 .rodape-3{
-    border: 1px solid #ccc;
+    border: 0px solid #696969;
     padding: 30px 30px;
 }
 
 .rodape-5{
-    border: 1px solid #ccc;
+    border: 0px solid #696969;
     padding: 30px 30px;
 
 }
+
+footer {
+    background-color: #696969;
+  }
+
+a{
+    text-decoration: none;
+}
+/*Fim da aba footer*/
+  

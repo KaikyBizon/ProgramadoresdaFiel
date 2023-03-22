@@ -1,0 +1,46 @@
+.conhecer-grid h2{
+    display: flex;
+    justify-content: center;
+    color: #c1c1c1;
+}
+
+#conhecer{
+    border: 1px solid #c1c1c1;
+    background-color: black;
+   
+}
+
+.conhecer-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    margin: 50px;
+    border: 1px solid #faed27;
+   
+    
+}
+
+.conhecer-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-conhecer{
+    width: 217px;
+    height: 200px;
+   
+}
+
+#conhecer h1{
+    display: flex;
+    justify-content: center;
+    color: #faed27;
+    font-size: 55px;
+} 
+
+.explicação{
+    color: #c1c1c1;
+    padding: 5px;
+}
