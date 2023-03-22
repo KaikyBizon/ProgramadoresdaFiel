@@ -14,39 +14,39 @@
     <!--Início do cabeçalho-->
     <header class="cabeca">
         <div>
-            <h3 id="logo">Logo</h3>
-        </div> 
+            <img id="logo" src="./images/Starefinhas-Logo (3).png" alt="starefinha">
+        </div>
 
         <!--Itens do Menu-->
-            <ul class="menu">
-            <a href="#">
+        <ul class="menu">
+            <a href="#sobre">
                 <li class="itn-menu">Sobre</li>
             </a>
-            <a href="#">
+            <a href="#suporte">
                 <li class="itn-menu">Suporte</li>
             </a>
-            <a href="#">
+            <a href="#avl">
                 <li class="itn-menu">Avaliações</li>
             </a>
             <a href="#" id="login-btn">
                 <li class="itn-menu">Login</li>
             </a>
             <a href="#" id="cadastro-btn">
-                <li class="itn-menu">Cadastre-se</li>
+                <li class="itn-menu1">Cadastre-se</li>
             </a>
         </ul>
     </header>
     <!--Fim do Cabeçalho-->
 
-    <main class="pg-1"> 
+    <main class="pg-1">
         <!--Texto da introdução-->
         <article class="text-intro">
             <h1 class="txt-1"><span>Sua Vida Organizada</span></h1>
             <h1 class="txt-1">Em Um Único</h1>
             <h1 class="txt-1">APP!</h1>
-        </article> 
+        </article>
         <!--imagem da introdução-->
-        
+
     </main>
 
     <!--Início Aba: Conhecer-->
@@ -55,35 +55,34 @@
         <div class="conhecer-grid">
             <div class="conhecer-cards">
                 <h2>Suporte</h2>
-                <p>s</p>
-                <img class="img-conhecer" src="" alt="">
+                <p class="explicação">Ajuda e suporte 24h para auxiliar <br> nas suas dúvidas e problemas</p>
+                <img class="img-conhecer" src="images/Suporte.png" alt="">
             </div>
 
             <div class="conhecer-cards">
                 <h2>Utilidades</h2>
-                <p>s</p>
-                <img class="img-conhecer" src="" alt="">
+                <p class="explicação">Te ajuda no planejamneto, <br>organização e gerenciamento das <br>suas ideias com
+                    o principal foco <br> em te ajudar a aproveitar <br> melhor seu tempo. </p>
+                <img class="img-conhecer" src="images/Utilidade.png" alt="">
             </div>
 
             <div class="conhecer-cards">
                 <h2>Segurança</h2>
-                <p>s</p>
-                <img class="img-conhecer" src="" alt="">
+                <p class="explicação">Seus planejamentos e dados <br>protegidos com total segurança</p>
+                <img class="img-conhecer" src="images/Segurança.jpeg" alt="">
             </div>
 
-            <div class="conhecer-cards">
-                <h2>Nossa história</h2>
-                <p>s</p>
-                <img class="img-conhecer" src="" alt="">
-            </div>
+
         </div>
     </section>
     <!--Fim Aba: Conhecer-->
 
     <!--Inícia Aba: Sobre-noós-->
     <section id="sobre">
-            <h1>O Starefinha é uma lista de<br> tarefas práticas que<br> te ajuda no seu planejamneto,<br> organização e gerenciamento das suas ideias<br> 
-                que tem como principal foco<br> te ajudar a aproveitar melhor<br> seu tempo.<br> Venha fazer parte de nossa constelação.</h1>
+        <h1 id="sobre-txt">O Starefinha é uma lista de tarefas práticas que te ajuda <br>no seu planejamneto,
+            organização e gerenciamento das suas ideias<br>
+            que tem como principal foco te ajudar a aproveitar melhor<br> seu tempo. Venha fazer parte de nossa
+            constelação.</h1>
     </section>
     <!--Fim Aba: Sobre-nós-->
 
@@ -92,12 +91,14 @@
         <div class="av">
             <h1 class="titulo">AVALIAÇÕES</h1>
             <div class="avl-geral">
+
+
                 <div class="avaliações">
                     <div class="nome">
                         <img src="imagens/imagem.png" class="usuário" alt="">
                         <h3>NOME</h3>
                     </div>
-                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                    <textarea class="mensagem-avl" name="mensagem" id="" cols="20" rows="10"></textarea>
                 </div>
 
                 <div class="avaliações">
@@ -105,7 +106,7 @@
                         <img src="imagens/imagem.png" class="usuário" alt="">
                         <h3>NOME</h3>
                     </div>
-                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                    <textarea class="mensagem-avl" name="mensagem" id="" cols="20" rows="10"></textarea>
                 </div>
 
                 <div class="avaliações">
@@ -113,60 +114,78 @@
                         <img src="imagens/imagem.png" class="usuário" alt="">
                         <h3>NOME</h3>
                     </div>
-                    <textarea name="mensagem" id="" cols="20" rows="5"></textarea>
+                    <textarea class="mensagem-avl" name="mensagem" id="" cols="20" rows="10"></textarea>
                 </div>
+
+                <div class="avaliações">
+                    <div class="nome">
+                        <img src="imagens/imagem.png" class="usuário" alt="">
+                        <h3>NOME</h3>
+                    </div>
+                    <textarea class="mensagem-avl" name="mensagem" id="" cols="20" rows="10"></textarea>
+                </div>
+
+
 
             </div>
-
-            <a href="">
+            <a href="" class="link-avl">
                 <p>VER MAIS...</p>
             </a>
+        </div>
     </section>
     <!--Fim Aba: Avaliações-->
 
     <!--Início Aba: cadastro-secundário-->
     <section class="cadastro">
-        
-        <div class="txt-cadastro">
-            <h1>Agora que você<br>já conheceu tudo<br> venha fazer parte<br> do nosso grupo</h1>
-        </div>
+        <img src="" alt="">
 
-        <div class="botão">
-            <input type="button" value="Cadastre-se agora">
+
+        <div class="cadastro2">
+            <h1 id="cad-txt">Agora que você<br>já conheceu tudo<br> venha fazer parte<br> do nosso grupo</h3>
+        </div>
+        <div class="botao">
+            <input type="hidden" name="acao" value="enviar">
+            <button type="submit" name="submit" class="submit_btn">
+                <span> Cadastre-se agora</span>
+            </button>
         </div>
 
     </section>
     <!--Fim Aba: Cadastro-secundário-->
 
-   <!--Inicio Aba: suporte-->
+    <!--Inicio Aba: suporte-->
 
-   <section class="sup-total">
+    <section id="suporte">
 
-    <h1 id="titulo-sup">Suporte</h1>
 
-    <div class="Suporte">
 
-        <div class="reclamaçoes">
-            <input type="email" name="email" class="btn-todos e-mail" placeholder="Digite seu e-mail">
-            <textarea name="mensagem" class="btn-todos mensagem" cols="30" rows="5"
-                placeholder="Digite seu problema"></textarea>
-            <input type="button" value="Enviar" class="btn-todos botão-spt">
+        <div class="Suporte">
+
+            <div class="reclamaçoes">
+                <h1 id="titulo_suporte">Suporte</h1>
+                <input type="email" name="email" class="btn-todos e-mail" placeholder="Digite seu e-mail">
+                <textarea name="mensagem" class="btn-todos mensagem" cols="30" rows="5"
+                    placeholder="Digite seu problema"></textarea>
+                <input type="button" value="Enviar" class="btn-todos botão">
+
+            </div>
+
+
+
 
         </div>
+    </section>
 
-    </div>
-</section>
-
-<!--Fim Aba: suporte-->
+    <!--Fim Aba: suporte-->
 
     <!--Início Aba: rodapé-->
     <footer class="rodape-3">
         <div class="rodape">
             <div class="rodape-5">
-                <p>Venha fazer parte da nossa comunidade e tenha</p>
+                <p>Venha fazer parte da nossa comunidade</p>
                 <p>seus planejamentos do seu jeito!!</p>
-            </div> 
-            
+            </div>
+
 
 
             <div class="rodape-4">
@@ -187,7 +206,7 @@
                 <p>Telefone</p>
 
                 <div class="rodape-2">
-                    <a href="https://www.whatsapp.com/?lang=pt_br">
+                    <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
                         <img src="images/whatsapp (1).png" alt="whatsapp">
                     </a>
 
@@ -204,5 +223,4 @@
 
         </div>
     </footer>
-
 </body>
