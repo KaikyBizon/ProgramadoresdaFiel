@@ -1,0 +1,67 @@
+/*Começo avaliações*/
+#avl{
+   
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+/*Título H1.*/
+.titulo{
+   text-align: center;
+   color: #faed27 ;
+   padding: 80px;
+   font-size: 45px;
+
+}
+/*Título H1*/
+
+/*Centralizando a div*/
+.avl-geral{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+/*Centralizando a div principal*/
+
+/*Começo da borda da div-avaliações*/
+.avaliações{
+    padding: 38px;
+    border: 2px solid #c1c1c1;
+    border-radius: 16px;
+    margin: 1%;
+    height: 215px;    
+    
+}
+/*Fim da borda da div-avaliações*/
+
+.av{
+    padding: 49px;
+    
+}
+
+.usuário{
+    width: 20px;
+    height: 20px;
+
+}
+.avaliações .nome{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+h3{
+    margin: 0;
+    margin-bottom: 16px;
+    color: #faed27;
+}
+
+.mensagem-avl{
+    background-color: black;
+}
+
+.link-avl{
+    color:#c1c1c1;
+}
+/*Fim avaliações*/
