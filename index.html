@@ -79,7 +79,7 @@
 
     <!--Inícia Aba: Sobre-noós-->
     <section id="sobre">
-        <h1 id="sobre-txt">O Starefinha é uma lista de tarefas práticas que te ajuda <br>no seu planejamneto,
+        <h1 id="sobre-txt">O Starefinha é uma lista de tarefas práticas que te ajuda <br>no seu planejamento,
             organização e gerenciamento das suas ideias<br>
             que tem como principal foco te ajudar a aproveitar melhor<br> seu tempo. Venha fazer parte de nossa
             constelação.</h1>
@@ -143,12 +143,12 @@
         <div class="cadastro2">
             <h1 id="cad-txt">Agora que você<br>já conheceu tudo<br> venha fazer parte<br> do nosso grupo</h3>
         </div>
-        <div class="botao">
+        <form class="botao">
             <input type="hidden" name="acao" value="enviar">
-            <button type="submit" name="submit" class="submit_btn">
+            <button type="submit" value="enviar" name="submit" class="submit_btn" >
                 <span> Cadastre-se agora</span>
             </button>
-        </div>
+        </form>
 
     </section>
     <!--Fim Aba: Cadastro-secundário-->
@@ -163,11 +163,11 @@
 
             <div class="reclamaçoes">
                 <h1 id="titulo_suporte">Suporte</h1>
-                <input type="email" name="email" class="btn-todos e-mail" placeholder="Digite seu e-mail">
-                <textarea name="mensagem" class="btn-todos mensagem" cols="30" rows="5"
-                    placeholder="Digite seu problema"></textarea>
-                <input type="button" value="Enviar" class="btn-todos botão">
-
+                <form action="#">
+                    <input type="email" name="email" class="btn-todos e-mail" placeholder="Digite seu e-mail">
+                    <textarea name="mensagem" class="btn-todos mensagem" cols="30" rows="5" placeholder="Digite seu problema"></textarea>
+                        <input type="submit" value="Enviar" class="btn-todos botão">
+                </form>
             </div>
 
 

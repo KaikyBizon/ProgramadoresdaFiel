@@ -7,6 +7,75 @@ body{
     margin: 0 auto;
 }
 
+/*Início página "Main"*/
+.pg-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px; 
+    justify-content: flex-start;
+    align-items: center; 
+    background-image: url(./TelaMeunu\ \(opaco\).png);
+    background-size: 1000px;
+    height: 700px; 
+    padding-left: 200px;
+} 
+
+.text-intro{
+    margin-right: 20px; 
+    width: 45%;
+    width: 45%; 
+} 
+
+.img-intro{
+    margin-left: 20px; 
+    width: 45%;
+}
+
+.txt-1{
+    font-size: 61px;
+    line-height: 25px; 
+    color: #333C43;
+} 
+/*Fim página "Main"*/
+
+/*menu*/
+.itn-menu{
+    display: inline-block;
+    margin: 20px; 
+    color: #faed27; 
+    font-size: 25px;
+} 
+
+.itn-menu:hover{
+    color: white;
+}
+
+#login-btn{
+   border-left: 1px solid white; 
+   height: 20px;
+} 
+
+.itn-menu1{
+    display: inline-block;
+    margin: 20px; 
+    color: #faed27; 
+    font-size: 25px;
+    border: 2px solid #faed27; 
+    border-radius: 17px; 
+    padding: 12px;
+} 
+
+.itn-menu1:hover{
+    background-color: #faed27;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+/* fim menu*/
+
 /*Começo avaliações*/
 #avl{
    
@@ -91,41 +160,7 @@ h3{
     height: 100px;
 }
 
-.itn-menu{
-    display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
-    font-size: 25px;
-} 
 
-.itn-menu:hover{
-    color: white;
-}
-
-#login-btn{
-   border-left: 1px solid white; 
-   height: 20px;
-} 
-
-.itn-menu1{
-    display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
-    font-size: 25px;
-    border: 2px solid #faed27; 
-    border-radius: 17px; 
-    padding: 12px;
-} 
-
-.itn-menu1:hover{
-    background-color: #faed27;
-    color: white;
-}
-
-
-a{
-    text-decoration: none;
-}
 
 /*Início Conheça-nos*/
 .conhecer-grid h2{
@@ -148,8 +183,7 @@ a{
     margin-bottom: 100px;
     margin: 50px;
     border: 1px solid #faed27;
-   
-    
+    border-radius: 10px;
 }
 
 .conhecer-grid{
@@ -176,36 +210,7 @@ a{
 } 
 /*Fim Conheça-no*/
 
-/*Início página "Main"*/
-.pg-1{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0px; 
-    justify-content: flex-start;
-    align-items: center; 
-    background-image: url(./Imagem\ Tela\ Menu.png);
-    background-size: 1000px;
-    height: 700px; 
-    padding-left: 200px;
-} 
 
-.text-intro{
-    margin-right: 20px; 
-    width: 45%;
-    width: 45%; 
-} 
-
-.img-intro{
-    margin-left: 20px; 
-    width: 45%;
-}
-
-.txt-1{
-    font-size: 61px;
-    line-height: 25px; 
-    color: #333C43;
-} 
-/*Fim página "Main"*/
 
 /*Início Cadastro Secundário*/
 
@@ -231,10 +236,12 @@ a{
     box-shadow: black;
 }
 .botao .submit_btn span{
-    font-size: 20px;
+    font-size: 20px; 
+    cursor: pointer;
 }
 #cad-txt{
-   width: 350px;
+   width: 350px; 
+   color: #faed27;
 }
 
 .cadastro2{
@@ -250,7 +257,7 @@ a{
     align-items: center;
     width: 100%;
     height: 900px;
-    background-image: url(./Imagem\ Tela\ Cadastro\ Sec..png); 
+    background-image: url(./Tela\ Cad.\ Sec.\ \(opaco\).png); 
     background-size: 1700px;
 }
 /*Fim Cadastro Secundário*/
@@ -354,7 +361,8 @@ textarea{
     flex-direction: column;
     margin: 20px;
     border: 3px solid #c1c1c1;
-    background-color: black;
+    background-color: #c1c1c1; 
+    cursor: pointer;
 }
 .e-mail{
     width: 350px ;
@@ -387,7 +395,7 @@ textarea{
 
 #sobre{ 
     display: flex;
-    background-color: #c1c1c1; 
+    background-color: #656565; 
     text-align: center; 
     align-items: center;
     height: 700px; 
@@ -408,3 +416,17 @@ textarea{
     background-color: #faed27;
     border-radius: 30px;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* largura da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #696969;        /* cor do fundo da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FAED27;    /* cor do scroll flutuante */
+    border-radius: 20px;       /* curvatura das pontas da scrollbar */
+    border: 3px solid #696969;  /* borda da scrollbar*/
+  }
