@@ -255,7 +255,7 @@ a{
 }
 /*Fim Cadastro Secundário*/
 
-/*Começo do Rodapé*/
+/*Começo do rodapé geral*/
 .rodape{
     left: 0;
     bottom: 0;
@@ -270,38 +270,21 @@ a{
     justify-content: space-around;
     border: 0px solid #696969;
 }
-/*Fim do rodapé geral*/
 
-
-/*Inicio imagens*/
 footer a img{
     width: 40px;
     height: 40px;
     padding: 0px 20px;
 }
-/*Fim imagens*/
-
-footer address{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
 
 .rodape-1{
     border: 0px solid #696969;
     padding: 10px 10px;
-   
-
 }
 
 .rodape-2{
     border: 0px solid #696969;
     padding: 5px 5px;
-    
-
 }
 
 .rodape-3{
@@ -312,16 +295,16 @@ footer address{
 .rodape-5{
     border: 0px solid #696969;
     padding: 30px 30px;
-
 }
 
 footer {
     background-color: #696969;
-  }
+}
 
 a{
     text-decoration: none;
 }
+
 /*Fim do Rodapé*/
 
 /*Inicio CSS da abba suporte*/
