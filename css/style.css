@@ -7,6 +7,75 @@ body{
     margin: 0 auto;
 }
 
+/*Início página "Main"*/
+.pg-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px; 
+    justify-content: flex-start;
+    align-items: center; 
+    background-image: url(./TelaMeunu\ \(opaco\).png);
+    background-size: 1000px;
+    height: 700px; 
+    padding-left: 200px;
+} 
+
+.text-intro{
+    margin-right: 20px; 
+    width: 45%;
+    width: 45%; 
+} 
+
+.img-intro{
+    margin-left: 20px; 
+    width: 45%;
+}
+
+.txt-1{
+    font-size: 61px;
+    line-height: 25px; 
+    color: #333C43;
+} 
+/*Fim página "Main"*/
+
+/*menu*/
+.itn-menu{
+    display: inline-block;
+    margin: 20px; 
+    color: #faed27; 
+    font-size: 25px;
+} 
+
+.itn-menu:hover{
+    color: white;
+}
+
+#login-btn{
+   border-left: 1px solid white; 
+   height: 20px;
+} 
+
+.itn-menu1{
+    display: inline-block;
+    margin: 20px; 
+    color: #faed27; 
+    font-size: 25px;
+    border: 2px solid #faed27; 
+    border-radius: 17px; 
+    padding: 12px;
+} 
+
+.itn-menu1:hover{
+    background-color: #faed27;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+/* fim menu*/
+
 /*Começo avaliações*/
 #avl{
    
@@ -91,41 +160,7 @@ h3{
     height: 100px;
 }
 
-.itn-menu{
-    display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
-    font-size: 25px;
-} 
 
-.itn-menu:hover{
-    color: white;
-}
-
-#login-btn{
-   border-left: 1px solid white; 
-   height: 20px;
-} 
-
-.itn-menu1{
-    display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
-    font-size: 25px;
-    border: 2px solid #faed27; 
-    border-radius: 17px; 
-    padding: 12px;
-} 
-
-.itn-menu1:hover{
-    background-color: #faed27;
-    color: white;
-}
-
-
-a{
-    text-decoration: none;
-}
 
 /*Início Conheça-nos*/
 .conhecer-grid h2{
@@ -175,36 +210,7 @@ a{
 } 
 /*Fim Conheça-no*/
 
-/*Início página "Main"*/
-.pg-1{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0px; 
-    justify-content: flex-start;
-    align-items: center; 
-    background-image: url(./TelaMeunu\ \(opaco\).png);
-    background-size: 1000px;
-    height: 700px; 
-    padding-left: 200px;
-} 
 
-.text-intro{
-    margin-right: 20px; 
-    width: 45%;
-    width: 45%; 
-} 
-
-.img-intro{
-    margin-left: 20px; 
-    width: 45%;
-}
-
-.txt-1{
-    font-size: 61px;
-    line-height: 25px; 
-    color: #333C43;
-} 
-/*Fim página "Main"*/
 
 /*Início Cadastro Secundário*/
 
@@ -372,7 +378,7 @@ textarea{
     flex-direction: column;
     margin: 20px;
     border: 3px solid #c1c1c1;
-    background-color: black; 
+    background-color: #c1c1c1; 
     cursor: pointer;
 }
 .e-mail{
