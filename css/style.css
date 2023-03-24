@@ -427,3 +427,17 @@ textarea{
     background-color: #faed27;
     border-radius: 30px;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* largura da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #696969;        /* cor do fundo da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FAED27;    /* cor do scroll flutuante */
+    border-radius: 20px;       /* curvatura das pontas da scrollbar */
+    border: 3px solid #696969;  /* borda da scrollbar*/
+  }
