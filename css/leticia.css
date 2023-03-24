@@ -1,4 +1,6 @@
 /*Começo avaliações*/
+
+/*Alinhar e dar cor para o fundo da página*/
 #avl{
    
     display: flex;
@@ -6,7 +8,7 @@
     background-color: black;
 }
 
-/*Título H1.*/
+/*Alinhar, dar cor, tamanho e borda no título*/
 .titulo{
    text-align: center;
    color: #faed27 ;
@@ -14,17 +16,15 @@
    font-size: 45px;
 
 }
-/*Título H1*/
 
-/*Centralizando a div*/
+/*Centralizando a div principal*/
 .avl-geral{
     flex-direction: row;
     justify-content: center;
     display: flex;
 }
-/*Centralizando a div principal*/
 
-/*Começo da borda da div-avaliações*/
+/*Dar borda para a div-avaliações*/
 .avaliações{
     padding: 38px;
     border: 2px solid #c1c1c1;
@@ -33,34 +33,39 @@
     height: 215px;    
     
 }
-/*Fim da borda da div-avaliações*/
 
+/*Preencher a página inteira*/
 .av{
     padding: 49px;
     
 }
 
+/*Definir o tamanho da foto dos usuários*/
 .usuário{
     width: 20px;
     height: 20px;
 
 }
+
+/*Alinhar a foto e nome de usuário*/
 .avaliações .nome{
     display: flex;
     align-items: flex-start;
 }
 
-
+/*Alinhar o nome com a foto dar cor e borda no nome*/
 h3{
     margin: 0;
     margin-bottom: 16px;
     color: #faed27;
 }
 
+/*Dar fundo para a textarea*/
 .mensagem-avl{
     background-color: black;
 }
 
+/*Colocar cor na fonte do link*/
 .link-avl{
     color:#c1c1c1;
 }
