@@ -3,59 +3,56 @@
 
 /*Inicio divs*/
 #suporte{
-    background-image: url(./Design\ sem\ nome\ \(4\).png);
-    width: 1400px;
-    height: 700px;
-    padding: 50px;
+    background-image: url(./Design\ sem\ nome\ \(4\).png); /*imagem de fundo*/
+    width: 1400px; /*ajustar tamanho*/
+    height: 700px; /*ajustar largura*/
+    padding: 50px; /*centralizar a section*/
 }
     
 .reclamaçoes{
-    width: 400px;
-    height: 400px;
-    margin-right: 900px;
-    margin-top:80px ;
-    text-align: center;
+    width: 400px; /*ajustar tamanho*/
+    height: 400px; /*ajustar largura*/
+    margin-right: 900px; /*ajustar a margem para direita*/
+    margin-top:80px ;  /*ajustar margem no topo*/
+    text-align: center; /*centralisar o texto*/
 }
 
 .Suporte{
-    display: flex;
-    justify-content:flex-end;
+    display: flex; /*alinha os itens da div*/
+    justify-content:flex-end; /*direção onde ficarão os itens*/
 }
 .reclamaçoes #titulo_suporte{
-    color: #FAED27;
-    font-size: 45px;
+    color: #FAED27; /*cor da fonte*/
+    font-size: 45px; /*tamanho da fonte*/
 }
-
-
-
 /*fim divs*/
 
 /*inicio botões*/
 .btn-todos{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    border: 3px solid #c1c1c1;
-    background-color: black;
+    display: flex; /*alinha os botões*/
+    flex-direction: column; /*deixa eles em forma de coluna*/
+    margin: 20px; /*tamanho da margem*/
+    border: 3px solid #c1c1c1; /*tamanho e cor da borda*/
+    background-color: black; /*cor de fundo*/
 }
 .e-mail{
-    width: 350px ;
-    height:50px ;
-    border-radius: 10px;
+    width: 350px ; /*tamanho do botão*/
+    height:50px ;  /*largura do botão*/
+    border-radius: 10px; /*tira a ponta das bordas*/
     
 }
 .mensagem{
-    width:350px ;
-    height:200px ;
-    border-radius: 10px;
+    width:350px ; /*tamanho do botão*/
+    height:200px ; /*largura do botão*/
+    border-radius: 10px;  /*tira a ponta das bordas*/
     
 }
 .botão{
-    width:150px ;
-    height:40px ;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50px;
-   color: #c1c1c1;
+    width:150px ; /*tamanho do botão*/
+    height:40px ; /*largura do botão*/
+   justify-content: center; /*direção onde ficarão os itens*/
+   align-items: center; /*alinha os itens no centro*/
+   border-radius: 50px; /*tira a ponta das bordas*/
+   color: #c1c1c1; /*cor da fonte*/
 }
 /*fim botões*/
