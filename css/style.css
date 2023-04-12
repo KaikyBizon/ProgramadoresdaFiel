@@ -14,7 +14,7 @@ body{
     margin-top: 0px; 
     justify-content: flex-start;
     align-items: center; 
-    background-image: url(./TelaMeunu\ \(opaco\).png);
+    background-image: url(fundo-menu.png);
     background-size: 1000px;
     height: 700px; 
     padding-left: 200px;
@@ -257,12 +257,12 @@ h3{
     align-items: center;
     width: 100%;
     height: 900px;
-    background-image: url(./Tela\ Cad.\ Sec.\ \(opaco\).png); 
+    background-image: url(fundo-2cadastro.png); 
     background-size: 1700px;
 }
 /*Fim Cadastro Secundário*/
 
-/*Começo do Rodapé*/
+/*Começo do rodapé geral*/
 .rodape{
     left: 0;
     bottom: 0;
@@ -277,38 +277,21 @@ h3{
     justify-content: space-around;
     border: 0px solid #696969;
 }
-/*Fim do rodapé geral*/
 
-
-/*Inicio imagens*/
 footer a img{
     width: 40px;
     height: 40px;
     padding: 0px 20px;
 }
-/*Fim imagens*/
-
-footer address{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
 
 .rodape-1{
     border: 0px solid #696969;
     padding: 10px 10px;
-   
-
 }
 
 .rodape-2{
     border: 0px solid #696969;
     padding: 5px 5px;
-    
-
 }
 
 .rodape-3{
@@ -319,16 +302,16 @@ footer address{
 .rodape-5{
     border: 0px solid #696969;
     padding: 30px 30px;
-
 }
 
 footer {
     background-color: #696969;
-  }
+}
 
 a{
     text-decoration: none;
 }
+
 /*Fim do Rodapé*/
 
 /*Inicio CSS da abba suporte*/
@@ -336,7 +319,7 @@ a{
 /*Inicio divs*/ 
 
 #suporte{
-    background-image: url(./Design\ sem\ nome\ \(4\).png);
+    background-image: url(fundo-suporte.png);
     height: 700px;
     padding: 50px;
 }

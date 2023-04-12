@@ -26,46 +26,45 @@ footer a img{
 }
 /*Fim imagens*/
 
-footer address{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-
+/*Inicio borda Para você*/
 .rodape-1{
     border: 0px solid #696969;
     padding: 10px 10px;
-   
-
 }
+/*Fim borda Para você*/
 
+/*Inicio borda Redes sociais*/
 .rodape-2{
     border: 0px solid #696969;
-    padding: 5px 5px;
-    
-
+    padding: 5px 5px; 
 }
+/*Fim borda Redes sociais*/
 
+/*Inicio borda Footer*/
 .rodape-3{
     border: 0px solid #696969;
     padding: 30px 30px;
 }
+/*Fim borda Footer*/
 
+/*Inicio borda frase*/ 
 .rodape-5{
     border: 0px solid #696969;
     padding: 30px 30px;
-
 }
+/*Fim borda frase*/
 
+/*Inicio cor Footer*/
 footer {
     background-color: #696969;
-  }
+}
+/*Fim cor Footer*/
 
+/*Inicio link Redes sociais*/
 a{
     text-decoration: none;
 }
+/*Fim link Redes sociais*/
+
 /*Fim da aba footer*/
   
