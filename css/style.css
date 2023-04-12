@@ -14,7 +14,7 @@ body{
     margin-top: 0px; 
     justify-content: flex-start;
     align-items: center; 
-    background-image: url(./TelaMeunu\ \(opaco\).png);
+    background-image: url(fundo-menu.png);
     background-size: 1000px;
     height: 700px; 
     padding-left: 200px;
@@ -257,7 +257,7 @@ h3{
     align-items: center;
     width: 100%;
     height: 900px;
-    background-image: url(./Tela\ Cad.\ Sec.\ \(opaco\).png); 
+    background-image: url(fundo-2cadastro.png); 
     background-size: 1700px;
 }
 /*Fim Cadastro Secundário*/
@@ -336,7 +336,7 @@ a{
 /*Inicio divs*/ 
 
 #suporte{
-    background-image: url(./Design\ sem\ nome\ \(4\).png);
+    background-image: url(fundo-suporte.png);
     height: 700px;
     padding: 50px;
 }
