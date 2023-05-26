@@ -1,7 +1,7 @@
 /*Inicio CSS da abba suporte*/
 
 
-/*Inicio divs*/
+
 #suporte{
     background-image: url(./Design\ sem\ nome\ \(4\).png); /*imagem de fundo*/
     width: 1400px; /*ajustar tamanho*/
@@ -25,7 +25,6 @@
     color: #FAED27; /*cor da fonte*/
     font-size: 45px; /*tamanho da fonte*/
 }
-/*fim divs*/
 
 /*inicio botões*/
 .btn-todos{

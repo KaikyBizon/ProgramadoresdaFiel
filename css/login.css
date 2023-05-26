@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    font-family: 'kanit', sans-serif;
+}
+
+
+body{
+    border: 0;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: #faed27;
+    height: 735px;
+}
+
+.fundo-secundario{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #696969;
+    border-radius: 15px;
+}
+
+.login-area{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.login-area a{
+    justify-content: flex-start;
+}
+
+.img-login img{
+    height: 400px;
+    width: 400px;
+}
+
+.login-area input:focus{
+    outline: 0;
+}
+
+.login-area h1{
+    color: #faed27;
+}
+
+.login-area input{
+    display: block;
+    margin: 20px 0;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid #faed27;
+    background: transparent;
+    color: #faed27;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 20px 0;
+}
+
+.dados a{
+    font-size: small;
+    color: #faed27;
+}
+
+.btn .btn-entrar{
+    background-color: #faed27;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+.dados input::placeholder{
+    color: #faed27;
+    opacity: 0.8;
+}
+
+.btn .btn-entrar:hover{
+    opacity: 0.5;
+}

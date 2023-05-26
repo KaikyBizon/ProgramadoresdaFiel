@@ -1,181 +1,194 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
-*{
+
+* {
     font-family: 'Kanit', sans-serif;
 }
 
-body{
+body {
     margin: 0 auto;
 }
 
 /*Início página "Main"*/
 /*Início cabeçalho*/
-.cabeca{
-    display: flex; 
-    flex-direction: row; 
+.cabeca {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
-    background-color: #696969;
+    align-items: center;
+    background-color: #000000;
     height: 130px;
-} 
+}
 
-#logo{ 
+#logo {
     padding-left: 10px;
     width: 300px;
     height: 166px;
 }
 
-.pg-1{
+.pg-1 {
     display: flex;
     flex-direction: row;
-    margin-top: 0px; 
+    margin-top: 0px;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: center;
     background-image: url(fundo-menu.png);
-    background-size: 1000px;
-    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
     padding-left: 200px;
-} 
+}
 
-.text-intro{
-    margin-right: 20px; 
+.text-intro {
+    margin-right: 20px;
     width: 45%;
-    width: 45%; 
-} 
-
-.img-intro{
-    margin-left: 20px; 
     width: 45%;
 }
 
-.txt-1{
+.img-intro {
+    margin-left: 20px;
+    width: 45%;
+}
+
+.txt-1 {
     font-size: 61px;
-    line-height: 25px; 
+    line-height: 25px;
     color: #333C43;
-} 
+}
+
 /*Fim página "Main"*/
 
 /*menu*/
-.itn-menu{
+.itn-menu {
     display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
+    margin: 20px;
+    color: #faed27;
     font-size: 25px;
-} 
+}
 
-.itn-menu:hover{
+.itn-menu:hover {
     color: white;
 }
 
-#login-btn{
-   border-left: 1px solid white; 
-   height: 20px;
-} 
+#login-btn {
+    border-left: 1px solid white;
+    height: 20px;
+}
 
-.itn-menu1{
+.itn-menu1 {
     display: inline-block;
-    margin: 20px; 
-    color: #faed27; 
+    margin: 20px;
+    color: #faed27;
     font-size: 25px;
-    border: 2px solid #faed27; 
-    border-radius: 17px; 
+    border: 2px solid #faed27;
+    border-radius: 17px;
     padding: 12px;
-} 
+}
 
-.itn-menu1:hover{
+.itn-menu1:hover {
     background-color: #faed27;
     color: white;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
+
 /* fim menu*/
 
 /*Começo avaliações*/
-#avl{
-   
+#avl {
+
     display: flex;
     justify-content: center;
     background-color: black;
 }
 
 /*Título H1.*/
-.titulo{
-   text-align: center;
-   color: #faed27 ;
-   padding: 80px;
-   font-size: 45px;
+.titulo {
+    text-align: center;
+    color: #faed27;
+    padding: 80px;
+    font-size: 45px;
 
 }
+
 /*Título H1*/
 
 /*Centralizando a div*/
-.avl-geral{
+.avl-geral {
     flex-direction: row;
     justify-content: center;
     display: flex;
 }
+
 /*Centralizando a div principal*/
 
 /*Começo da borda da div-avaliações*/
-.avaliações{
+.avaliações {
     padding: 38px;
     border: 2px solid #c1c1c1;
     border-radius: 16px;
     margin: 1%;
-    height: 215px;    
-    
+    height: 215px;
+    width: 250px;
 }
+
+
 /*Fim da borda da div-avaliações*/
 
-.av{
+.av {
     padding: 49px;
-    
+
 }
 
-.usuário{
+.usuário {
     width: 20px;
     height: 20px;
 
 }
-.avaliações .nome{
+
+.avaliações .nome {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
 }
 
 
-h3{
+.nome h3 {
     margin: 0;
-    margin-bottom: 16px;
     color: #faed27;
 }
 
-.mensagem-avl{
+.mensagem-avl {
     background-color: black;
+    color: rgb(255, 197, 0);
 }
 
-.link-avl{
-    color:#c1c1c1;
+.link-avl {
+    color: #c1c1c1;
 }
+
 /*Fim avaliações*/
 
 
 
 /*Início Conheça-nos*/
-.conhecer-grid h2{
+.conhecer-grid h2 {
     display: flex;
     justify-content: center;
     color: #c1c1c1;
 }
 
-#conhecer{
+#conhecer {
     border: 1px solid #c1c1c1;
     background-color: black;
-   
+
 }
 
-.conhecer-cards{
+.conhecer-cards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -186,39 +199,40 @@ h3{
     border-radius: 10px;
 }
 
-.conhecer-grid{
+.conhecer-grid {
     display: flex;
     justify-content: space-between;
 }
 
-.img-conhecer{
+.img-conhecer {
     width: 217px;
     height: 200px;
-   
+
 }
 
-#conhecer h1{
+#conhecer h1 {
     display: flex;
     justify-content: center;
     color: #faed27;
     font-size: 55px;
-} 
+}
 
-.explicação{
+.explicação {
     color: #c1c1c1;
     padding: 5px;
-} 
+}
+
 /*Fim Conheça-no*/
 
 
 
 /*Início Cadastro Secundário*/
 
-.banner{
+.banner {
     width: 100%;
 }
 
-.botao .submit_btn{
+.botao .submit_btn {
     display: flex;
     justify-content: right;
     font-size: 50px;
@@ -228,42 +242,49 @@ h3{
     padding: 15px 80px;
     background-color: #faed27;
 
-} 
+}
 
-.botao .submit_btn:hover{
+.botao .submit_btn:hover {
     background-color: #c1c1c1;
     color: #faed27;
     box-shadow: black;
 }
-.botao .submit_btn span{
-    font-size: 20px; 
+
+.botao .submit_btn span {
+    font-size: 20px;
     cursor: pointer;
 }
-#cad-txt{
-   width: 350px; 
-   color: #faed27;
+
+#cad-txt {
+    width: 350px;
+    color: #faed27;
 }
 
-.cadastro2{
+.cadastro2 {
     display: flex;
     margin-left: 100px;
     font-size: 30px;
     padding: 10px;
-    
+
 }
 
-.cadastro{
+.cadastro {
     display: flex;
     align-items: center;
     width: 100%;
     height: 900px;
-    background-image: url(fundo-2cadastro.png); 
+    background-image: url(fundo-2cadastro.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: 1700px;
 }
+
 /*Fim Cadastro Secundário*/
 
 /*Começo do rodapé geral*/
-.rodape{
+.rodape {
     left: 0;
     bottom: 0;
     color: #faed27;
@@ -273,33 +294,33 @@ h3{
     padding-right: 20px;
     border: 1px solid #ccc;
     padding: 5px 5px;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     border: 0px solid #696969;
 }
 
-footer a img{
+footer a img {
     width: 40px;
     height: 40px;
     padding: 0px 20px;
 }
 
-.rodape-1{
+.rodape-1 {
     border: 0px solid #696969;
     padding: 10px 10px;
 }
 
-.rodape-2{
+.rodape-2 {
     border: 0px solid #696969;
     padding: 5px 5px;
 }
 
-.rodape-3{
+.rodape-3 {
     border: 0px solid #696969;
     padding: 30px 30px;
 }
 
-.rodape-5{
+.rodape-5 {
     border: 0px solid #696969;
     padding: 30px 30px;
 }
@@ -308,7 +329,7 @@ footer {
     background-color: #696969;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -316,39 +337,42 @@ a{
 
 /*Inicio CSS da abba suporte*/
 
-/*Inicio divs*/ 
+/*Inicio divs*/
 
-#suporte{
+#suporte {
     background-image: url(fundo-suporte.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 700px;
     padding: 50px;
 }
-    
-.reclamaçoes{
+
+.reclamaçoes {
     width: 400px;
     height: 400px;
     margin-right: 900px;
-    margin-top:80px ;
+    margin-top: 80px;
     text-align: center;
 }
 
-input:focus{
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
     color: white;
 }
 
-textarea{
+textarea {
     box-shadow: 0 0 0 0;
     outline: 0;
     color: white;
 }
 
-.Suporte{
+.Suporte {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
-.reclamaçoes #titulo_suporte{
+
+.reclamaçoes #titulo_suporte {
     color: #FAED27;
     font-size: 45px;
 }
@@ -356,77 +380,86 @@ textarea{
 /*fim divs*/
 
 /*inicio botões*/
-.btn-todos{
+.btn-todos {
     display: flex;
     flex-direction: column;
     margin: 20px;
     border: 3px solid #c1c1c1;
-    background-color: #c1c1c1; 
+    background-color: #c1c1c1;
     cursor: pointer;
 }
-.e-mail{
-    width: 350px ;
-    height:50px ;
+
+.e-mail {
+    width: 350px;
+    height: 50px;
     border-radius: 10px;
-    
-}
-.mensagem{
-    width:350px ;
-    height:200px ;
-    border-radius: 10px;
-    
-}
-.botão{
-    width:150px ;
-    height:40px ;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50px;
-   background-color: #FAED27;
-   color: #414141;
+
 }
 
-.botão:hover{
+.mensagem {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.botão {
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #FAED27;
+    color: #414141;
+}
+
+.botão:hover {
     color: #FAED27;
     background-color: #696969;
 }
+
 /*fim botões*/
 /*fim imagem*/
 
-#sobre{ 
+#sobre {
     display: flex;
-    background-color: #656565; 
-    text-align: center; 
+    background-color: #656565;
+    text-align: center;
     align-items: center;
-    height: 700px; 
+    height: 700px;
     justify-content: center;
-} 
+}
 
-#sobre-txt{
+#sobre-txt {
     line-height: 50px;
-    font-size: 40px; 
+    font-size: 40px;
     color: #faed27
 }
 
-#sobre h1{
+#sobre h1 {
     font-weight: 20pt;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background-color: #faed27;
     border-radius: 30px;
 }
 
 body::-webkit-scrollbar {
-    width: 12px;               /* largura da scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #696969;        /* cor do fundo da scrollbar */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #FAED27;    /* cor do scroll flutuante */
-    border-radius: 20px;       /* curvatura das pontas da scrollbar */
-    border: 3px solid #696969;  /* borda da scrollbar*/
-  }
+    width: 12px;
+    /* largura da scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #696969;
+    /* cor do fundo da scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FAED27;
+    /* cor do scroll flutuante */
+    border-radius: 20px;
+    /* curvatura das pontas da scrollbar */
+    border: 3px solid #696969;
+    /* borda da scrollbar*/
+}
