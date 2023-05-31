@@ -356,14 +356,10 @@ a {
 
 /*Fim do Rodapé*/
 
-/*Inicio CSS da abba suporte*/
-
-/*Inicio divs*/
+/*Inicio da aba suporte*/
 
 #suporte {
     background-image: url(fundo-suporte.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     height: 700px;
     padding: 50px;
 }
