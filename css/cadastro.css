@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+* {
+    font-family: 'kanit', sans-serif;
+}
+
+.fundo {
+    background-image: url(fundo-login.png);
+    background-size: 1467px;
+    height: 735px;
+}
+
+.amarelo {
+    color: rgb(255, 197, 0);
+}
+
+.geral {
+    display: flex;
+    height: 640px;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral .msg {
+    font-size: 35pt;
+    color: #000000;
+}
+
+.login,
+.btn-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    padding-left: 350px;
+}
+
+.right-login input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textos input {
+    display: block;
+    width: 300px;
+    margin: 30px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #000000;
+
+}
+
+.titulo {
+    color: #000000;
+    font-weight: 30pt;
+}
+
+.textos input::placeholder {
+    color: #000000;
+    font-size: 8pt;
+    opacity: 0.8;
+}
+
+.textos input:focus {
+    outline: 0;
+    color: #000000;
+}
+
+.btn-cadastro {
+    cursor: pointer;
+    border-radius: 30px;
+    border: 0;
+    padding: 12px 30px;
+    background-color: rgb(255, 197, 0);
+}
+
+.btn-cadastro:hover {
+    color: rgb(255, 197, 0);
+    background-color: #000000;
+}
