@@ -117,6 +117,26 @@ a {
 
 /*Título H1*/
 
+
+#sobre {
+    display: flex;
+    background-image: url(telasobrenos.png);
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sobre-txt {
+    line-height: 50px;
+    font-size: 40px;
+    color: #faed27;
+}
+
 /*Centralizando a div*/
 .avl-geral {
     flex-direction: row;
@@ -134,6 +154,7 @@ a {
     margin: 1%;
     height: 215px;
     width: 250px;
+    flex-direction: row;
 }
 
 
@@ -420,21 +441,6 @@ textarea {
 
 /*fim botões*/
 /*fim imagem*/
-
-#sobre {
-    display: flex;
-    background-color: #656565;
-    text-align: center;
-    align-items: center;
-    height: 700px;
-    justify-content: center;
-}
-
-#sobre-txt {
-    line-height: 50px;
-    font-size: 40px;
-    color: #faed27
-}
 
 #sobre h1 {
     font-weight: 20pt;

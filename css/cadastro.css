@@ -55,7 +55,8 @@
 }
 
 .titulo {
-    color: #faed27;
+    color: #000000;
+    font-weight: 30pt;
 }
 
 .textos input::placeholder {
