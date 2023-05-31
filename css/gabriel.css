@@ -1,58 +1,17 @@
-/*Inicio CSS da abba suporte*/
-
-
-/*Inicio divs*/
-#suporte{
-    background-image: url(./Design\ sem\ nome\ \(4\).png); /*imagem de fundo*/
-    width: 1400px; /*ajustar tamanho*/
-    height: 700px; /*ajustar largura*/
-    padding: 50px; /*centralizar a section*/
-}
-    
-.reclamaçoes{
-    width: 400px; /*ajustar tamanho*/
-    height: 400px; /*ajustar largura*/
-    margin-right: 900px; /*ajustar a margem para direita*/
-    margin-top:80px ;  /*ajustar margem no topo*/
-    text-align: center; /*centralisar o texto*/
+#planos{
+    background-color: rgb(255, 197, 0);
+    height: 1000px;
 }
 
-.Suporte{
-    display: flex; /*alinha os itens da div*/
-    justify-content:flex-end; /*direção onde ficarão os itens*/
+.planos-grids{
+    display:flex;
+    justify-content: space-between;
 }
-.reclamaçoes #titulo_suporte{
-    color: #FAED27; /*cor da fonte*/
-    font-size: 45px; /*tamanho da fonte*/
-}
-/*fim divs*/
 
-/*inicio botões*/
-.btn-todos{
-    display: flex; /*alinha os botões*/
-    flex-direction: column; /*deixa eles em forma de coluna*/
-    margin: 20px; /*tamanho da margem*/
-    border: 3px solid #c1c1c1; /*tamanho e cor da borda*/
-    background-color: black; /*cor de fundo*/
+.planos-cards{
+    border: 3px solid black;
+    margin-top: 250px;
 }
-.e-mail{
-    width: 350px ; /*tamanho do botão*/
-    height:50px ;  /*largura do botão*/
-    border-radius: 10px; /*tira a ponta das bordas*/
-    
-}
-.mensagem{
-    width:350px ; /*tamanho do botão*/
-    height:200px ; /*largura do botão*/
-    border-radius: 10px;  /*tira a ponta das bordas*/
-    
-}
-.botão{
-    width:150px ; /*tamanho do botão*/
-    height:40px ; /*largura do botão*/
-   justify-content: center; /*direção onde ficarão os itens*/
-   align-items: center; /*alinha os itens no centro*/
-   border-radius: 50px; /*tira a ponta das bordas*/
-   color: #c1c1c1; /*cor da fonte*/
-}
-/*fim botões*/
+
+
+
