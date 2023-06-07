@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-image: linear-gradient(to right, #000000, rgb(255, 197, 0));
     height: 130px;
     box-shadow: 10px;
 }
@@ -64,7 +64,7 @@ body {
 .itn-menu {
     display: inline-block;
     margin: 20px;
-    color: #faed27;
+    color: #000000;
     font-size: 25px;
 }
 
@@ -80,15 +80,16 @@ body {
 .itn-menu1 {
     display: inline-block;
     margin: 20px;
-    color: #faed27;
+    color: #000000;
     font-size: 25px;
-    border: 2px solid #faed27;
+    border: 2px solid #000000;
     border-radius: 17px;
     padding: 12px;
 }
 
 .itn-menu1:hover {
-    background-color: #faed27;
+    background-color: #000000;
+    opacity: 0.8;
     color: white;
 }
 
@@ -206,7 +207,7 @@ a {
 
 #conhecer {
     border: 1px solid #c1c1c1;
-    background-color: black;
+    background-color: rgb(255, 197, 0);
 
 }
 
@@ -217,7 +218,9 @@ a {
     align-items: center;
     margin-bottom: 100px;
     margin: 50px;
+    background-color: rgba(255, 255, 0, 0.697);
     border: 1px solid #faed27;
+    box-shadow: 0 0 1em #000000;
     border-radius: 10px;
 }
 
@@ -235,12 +238,12 @@ a {
 #conhecer h1 {
     display: flex;
     justify-content: center;
-    color: #faed27;
+    color: #000000;
     font-size: 55px;
 }
 
 .explicação {
-    color: #c1c1c1;
+    color: #000000;
     padding: 5px;
 }
 
