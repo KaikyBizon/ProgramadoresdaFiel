@@ -1,0 +1,128 @@
+.planos * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.planos {
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tabela-preco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+
+
+
+.card-preco {
+    flex: 1;
+    max-width: 360px;
+    background-color: #000;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #e6e5e5;
+    transition: .3s linear;
+    border-radius: 10px;
+    border: 2px solid #faed26;
+}
+
+
+
+.card-preco:hover .card-preco-header {
+    box-shadow: 0 0 29em 28em #faed26;
+}
+
+.card-preco-header {
+    background-color: #faed26;
+    display: inline-block;
+    color: #000;
+    padding: 12px 30px;
+    border-radius: 0 0px 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s line;
+}
+
+.preco {
+
+    font-size: 70px;
+    color: #faed26;
+    margin: 40px 0;
+    transition: .2s linear;
+
+}
+
+
+
+.preco sup,
+.preco span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-preco:hover,
+.card-preco:hover .preco {
+    color: #535353;
+}
+
+.card-preco li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #faed26;
+    color: #faed26;
+    padding: 15px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+
+
+.btn:hover {
+    background-color: #faed26;
+    color: #525050;
+}
+
+
+
+.check-in {
+    height: 15px;
+    width: 18px;
+}
+
+
+
+.check-in,
+li {
+    display: inline-block;
+}
+
+
+
+.preco-ul {
+    text-align: left;
+    margin: 0 17px;
+}
