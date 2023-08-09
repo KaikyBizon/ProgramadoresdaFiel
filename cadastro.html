@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <main class="fundo">
+    <section id="fundo">
         <div class="geral">
             <h1 class="msg">
                 <div class="amarelo">Organize sua vida</div>com apenas uma tela
@@ -21,23 +21,30 @@
                     <h1>CADASTRE-SE</h1>
                 </div>
 
-                <form class="right-login" action="#">
+                <form id="right-login" action="#">
                     <div class="textos">
-                        <input type="text" name="Nome" id="" placeholder="Digite seu nome de usuário" required>
-                        <input type="email" name="Email" id="" placeholder="Digite um e-mail" required>
-                        <input type="password" name="Senha" id="" placeholder="Digite uma senha" required>
-                        <input type="password" name="Confirme" id="" placeholder="Confirme sua senha" required>
-                        <input type="date" name="nasc" id="" placeholder="Data de nascimento" required>
+                        <input type="text" name="Nome" id="nome_usuario" placeholder="Digite seu nome de usuário"
+                            required>
+                        <input type="email" name="Email" id="email_usuario" placeholder="Digite um e-mail" required>
+                        <input type="password" name="Senha" id="senha_usuario" placeholder="Digite uma senha" required>
+                        <input type="password" name="Confirme" id="confirma_senha" placeholder="Confirme sua senha"
+                            required>
+                        <input type="date" name="nasc" id="data_nasc" placeholder="Data de nascimento" required>
                     </div>
-
-                    <div>
-                        <input type="hidden" name="botao" value="submit">
-                        <button class="btn-cadastro">Cadastrar-se</button>
+                    <div class="botoes">
+                        <div class="botao_confirmar">
+                            <input type="hidden" name="botao" value="submit">
+                            <button class="btn-cadastro">Cadastrar-se</button>
+                        </div>
+                        <div class="botao_confirmar">
+                            <input type="hidden" name="botao" value="submit">
+                            <button class="btn-cadastro">Cancelar</button>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
-    </main>
+        </form>
 </body>
 
 </html>

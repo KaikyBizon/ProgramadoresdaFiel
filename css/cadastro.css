@@ -5,10 +5,14 @@
     font-family: 'kanit', sans-serif;
 }
 
-.fundo {
+body {
+    margin: 0;
+}
+
+#fundo {
     background-image: url(fundo-login.png);
     background-size: 1467px;
-    height: 735px;
+    height: 753px;
 }
 
 .amarelo {
@@ -18,7 +22,7 @@
 .geral {
     display: flex;
     height: 640px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -35,12 +39,12 @@
 }
 
 .login {
-    padding-left: 350px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.right-login input {
+#right-login input {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -81,4 +85,9 @@
 .btn-cadastro:hover {
     color: rgb(255, 197, 0);
     background-color: #000000;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
 }
