@@ -52,6 +52,8 @@ body{
     color: #faed27;
 }
 
+
+
 .login-area input{
     display: block;
     margin: 20px 0;
@@ -63,9 +65,9 @@ body{
     color: #faed27;
     cursor: pointer;
 }
-
 .btn{
-    margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .dados a{
@@ -73,7 +75,10 @@ body{
     color: #faed27;
 }
 
-.btn .btn-entrar{
+
+
+
+.btn #btn-entrar{
     background-color: #faed27;
     border: 0;
     cursor: pointer;
@@ -87,6 +92,6 @@ body{
     opacity: 0.8;
 }
 
-.btn .btn-entrar:hover{
+.btn #btn-entrar:hover{
     opacity: 0.5;
 }

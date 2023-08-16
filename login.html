@@ -11,29 +11,37 @@
 </head>
 
 <body>
+
     <div class="geral">
         <div class="fundo-secundario">
             <div class="img-login">
                 <img src="images/img-login.png" alt="">
             </div>
 
-            <form action="#">
+            <h1>BEM-VINDO!</h1>
+
+            <form id="register-login" action="#">
                 <div class="login-area">
-                    <h1>BEM-VINDO!</h1>
                     <div class="dados">
-                        <input type="email" name="EMAIL" id="" placeholder="Insira seu E-mail" required>
-                        <input type="password" name="Senha" id="" placeholder="Digite sua senha" required>
-                        <a href="#">Esqueceu sua senha?</a>
+                        <input type="email" name="EMAIL" id="email" placeholder="Insira seu E-mail"  data-required data-email-validate data-min-leight="11" data-max-leight="50">
+                    </div>
+                    <div class="dados">
+                        <input type="password" name="Senha" id="password" placeholder="Digite sua senha" data-required data-password-validate data-min-leight="6" data-max-leigth="15">
                     </div>
 
+                    </div>
+                    <a href="#">Esqueceu sua senha?</a>
                     <div class="btn">
-                        <input type="hidden" value="Submit">
-                        <button class="btn-entrar">Entrar</button>
+                        <input id="btn-entrar" type="submit" value="Entrar">
+                        
                     </div>
                 </div>
             </form>
         </div>
     </div>
+    <p class="error-validation template"></p>
+    <script src="js/login.js"></script>
+
 </body>
 
 </html>
