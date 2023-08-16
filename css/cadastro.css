@@ -74,7 +74,9 @@ body {
     color: #000000;
 }
 
-.btn-cadastro {
+.btn-cadastro,
+#btn-submit,
+#btn-cancel {
     cursor: pointer;
     border-radius: 30px;
     border: 0;
@@ -82,7 +84,9 @@ body {
     background-color: rgb(255, 197, 0);
 }
 
-.btn-cadastro:hover {
+.btn-cadastro:hover,
+#btn-submit:hover,
+#btn-cancel:hover {
     color: rgb(255, 197, 0);
     background-color: #000000;
 }
