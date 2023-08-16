@@ -17,31 +17,36 @@
             <div class="img-login">
                 <img src="images/img-login.png" alt="">
             </div>
-
-            <h1>BEM-VINDO!</h1>
-
-            <form id="register-login" action="#">
+            <form id="register-login" name="formulario_login" action="">
+                <div class="bem_vindo">
+                    <h1>BEM-VINDO!</h1>
+                </div>
                 <div class="login-area">
                     <div class="dados">
-                        <input type="email" name="EMAIL" id="email" placeholder="Insira seu E-mail"  data-required data-email-validate data-min-leight="11" data-max-leight="50">
+                        <input type="email" name="EMAIL" id="email" placeholder="Insira seu E-mail" data-required
+                            data-email-validate data-min-leight="11" data-max-leight="50">
                     </div>
                     <div class="dados">
-                        <input type="password" name="Senha" id="password" placeholder="Digite sua senha" data-required data-password-validate data-min-leight="6" data-max-leigth="15">
+                        <input type="password" name="Senha" id="password" placeholder="Digite sua senha" data-required
+                            data-password-validate data-min-leight="6" data-max-leigth="15">
                     </div>
 
-                    </div>
-                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+                <div class="botoes">
                     <div class="btn">
-                        <input id="btn-entrar" type="submit" value="Entrar">
-                        
+                        <input id="btn-entrar" type="submit" name="submit" value="Entrar">
+                    </div>
+                    <div class="btn">
+                        <input id="btn-entrar" type="button" name="botao" value="Cancelar" onclick="limpaForm()" ;>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-    <p class="error-validation template"></p>
     <script src="js/login.js"></script>
 
 </body>
+<p class="error-validation template"></p>
 
 </html>

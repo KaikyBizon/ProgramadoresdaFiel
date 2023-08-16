@@ -21,7 +21,7 @@ body {
 
 .geral {
     display: flex;
-    height: 640px;
+    height: 645px;
     justify-content: space-around;
     align-items: center;
 }
@@ -94,4 +94,12 @@ body {
 .botoes {
     display: flex;
     justify-content: space-around;
+}
+
+.error-validation {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    color: #b51919;
 }

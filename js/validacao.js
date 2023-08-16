@@ -1,5 +1,6 @@
 class Validator {
 
+
     constructor() {
         this.validations = [
             'data-min-length',
@@ -50,7 +51,7 @@ class Validator {
     minlength(input, minValue) {
         let inputLength = input.value.length;
 
-        let errorMessage = `O campo necessita de pelo menos ${minValue}`;
+        let errorMessage = `O campo necessita de pelo menos ${minValue} caracteres`;
 
         if (inputLength < minValue) {
             this.printMessage(input, errorMessage);
@@ -97,7 +98,7 @@ class Validator {
     equal(input, inputName) {
         let inputToCompare = document.getElementsByName(inputName)[0];
 
-        let errorMessage = `Este campo precisa estar igual ao ${inputName}`;
+        let errorMessage = `Este campo precisa ser igual a sua senha ${inputName}`;
 
         if (input.value != inputToCompare.value) {
             this.printMessage(input, errorMessage);
@@ -124,7 +125,7 @@ class Validator {
         let numbers = 0;
 
         for (let i = 0; charArr.length > i; i++) {
-            if (charArr[i] === charArr[i].toUppercase() && isNaN(parseInt(charArr[i]))) {
+            if (charArr[i] === charArr[i].toUpperCase() && isNaN(parseInt(charArr[i]))) {
                 uppercases++;
             } else if (!isNaN(parseInt(charArr[i]))) {
                 numbers++;
