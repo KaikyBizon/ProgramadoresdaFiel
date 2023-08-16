@@ -21,30 +21,41 @@
                     <h1>CADASTRE-SE</h1>
                 </div>
 
-                <form id="right-login" action="#">
+                <form id="right-login" name="formulario_cadastro" action="">
                     <div class="textos">
                         <input type="text" name="Nome" id="nome_usuario" placeholder="Digite seu nome de usuário"
-                            required>
-                        <input type="email" name="Email" id="email_usuario" placeholder="Digite um e-mail" required>
-                        <input type="password" name="Senha" id="senha_usuario" placeholder="Digite uma senha" required>
+                            required data-min-length="3" data-max-length="30" data-required data-only-letters>
+                    </div>
+                    <div class="textos">
+                        <input type="email" name="Email" id="email_usuario" placeholder="Digite um e-mail"
+                            data-email-validate required data-mix-length="11" data-max-length="50">
+                    </div>
+                    <div class="textos">
+                        <input type="password" name="Senha" id="senha_usuario" placeholder="Digite uma senha"
+                            data-min-length="6" data-max-length="15" data-password-validate required>
+                    </div>
+                    <div class="textos">
                         <input type="password" name="Confirme" id="confirma_senha" placeholder="Confirme sua senha"
-                            required>
+                            required data-equal="Senha">
+                    </div>
+                    <div class="textos">
                         <input type="date" name="nasc" id="data_nasc" placeholder="Data de nascimento" required>
                     </div>
                     <div class="botoes">
                         <div class="botao_confirmar">
-                            <input type="hidden" name="botao" value="submit">
-                            <button class="btn-cadastro">Cadastrar-se</button>
+                            <input id="btn-submit" type="submit" name="submit" value="Cadastrar-se">
                         </div>
                         <div class="botao_confirmar">
-                            <input type="hidden" name="botao" value="submit">
-                            <button class="btn-cadastro">Cancelar</button>
+                            <input id="btn-cancel" type="button" name="botao" value="Cancelar">
                         </div>
                     </div>
                 </form>
             </div>
         </div>
         </form>
+        <p class="error-validation template"></p>
+        <script src="js/validacao.js"></script>
 </body>
+
 
 </html>
