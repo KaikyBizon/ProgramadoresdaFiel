@@ -24,7 +24,8 @@
                 <form id="right-login" name="formulario_cadastro" action="">
                     <div class="textos">
                         <input type="text" name="Nome" id="nome_usuario" placeholder="Digite seu nome de usuário"
-                            required data-min-length="3" data-max-length="30" data-required data-only-letters>
+                            value='Kaiky' required data-min-length="3" data-max-length="30" data-required
+                            data-only-letters>
                     </div>
                     <div class="textos">
                         <input type="email" name="Email" id="email_usuario" placeholder="Digite um e-mail"
@@ -39,7 +40,8 @@
                             required data-equal="Senha">
                     </div>
                     <div class="textos">
-                        <input type="date" name="nasc" id="data_nasc" placeholder="Data de nascimento" required>
+                        <input type="date" name="nasc" id="data_nasc" placeholder="Data de nascimento" data-valida-nasc
+                            required>
                     </div>
                     <div class="botoes">
                         <div class="botao_confirmar">
@@ -52,9 +54,9 @@
                 </form>
             </div>
         </div>
-        </form>
+    </section>
 
-        <script src="js/validacao.js"></script>
+    <script src="js/validacao.js"></script>
 </body>
 <p class="error-validation template"></p>
 

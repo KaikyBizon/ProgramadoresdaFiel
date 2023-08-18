@@ -10,6 +10,7 @@ class Validator {
             'data-only-letters',
             'data-equal',
             'data-password-validate',
+            'data-valida-nasc',
         ]
     }
 
@@ -137,8 +138,25 @@ class Validator {
 
             this.printMessage(input, errorMessage);
         }
+
     }
     //Validar idade
+    validanasc(input) {
+        var data = document.getElementById("data_nasc").value; // pega o valor do input
+
+        // comparo as datas e calculo a idade
+        var hoje = new Date();
+        var nasc = new Date(data);
+        var idade = hoje.getFullYear() - nasc.getFullYear();
+        var m = hoje.getMonth() - nasc.getMonth();
+        if (m < 0 || (m === 0 && hoje.getDate() < nasc.getDate())) idade--;
+
+        if (idade < 15) {
+            let errorMessage = `Você precisa ter mais de 15 anos`
+            this.printMessage(input, errorMessage);
+        }
+
+    }
 
     //Método para imprimir mensagem de erro
     printMessage(input, msg) {
